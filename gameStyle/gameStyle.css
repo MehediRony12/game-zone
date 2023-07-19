@@ -244,6 +244,7 @@ a {
   font-size: 20px;
   font-weight: 600;
   color: rgb(250, 3, 188);
+  border: 0px;
 }
 .pinkContainer {
   display: flex;
@@ -256,9 +257,10 @@ a {
 }
 .pinkMiddleLeft {
   display: flex;
-  width: 900px;
+  width: 1200px;
   margin-bottom: 50px;
   margin-top: 50px;
+  color: white;
 }
 .pinkMiddleRight {
   text-align: right;
@@ -280,6 +282,7 @@ a {
   font-weight: 700;
   justify-content: center;
   color: white;
+  gap: 20px;
 }
 .titleG{
     color: #ff42a5;
@@ -294,11 +297,13 @@ a {
   margin-top: 30px;
   gap: 30px;
   margin-bottom: 30px;
+  padding-bottom: 30px;
 }
 .footerIcon{
   display: flex;
   justify-content: center;
   gap: 60px;
+  margin-top: 30px;
   margin-top: 30px;
 }
 .privacy
@@ -309,4 +314,38 @@ a {
   gap: 30px;
   margin-bottom: 30px;
   color: rgba(255, 255, 255, 0.60);
+}
+@media screen and (max-width:576px){
+  .navContainer,
+  .navLink ,
+  .navList,
+  .mainContainer
+  {
+    flex-direction: column;
+  }
+  .headContainer{
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .navContainer{
+
+    margin-top: 20px;
+    justify-content: center;
+  }
+  .navLink,
+  .navSocial{
+    margin-top: 20px;
+  }
+  .navList{
+    gap: 20px;
+  }
+  .headRightSideImg{
+    width: 300PX;
+    align-items: center;
+    margin-top: 60px;
+
+  }
+ 
 }
