@@ -26,10 +26,10 @@
   font-size: 48px;
   font-weight: 700;
 }
-.blackTitle{
-    color: #0B0223;
-    font-size: 48px;
-    font-weight: 700;
+.blackTitle {
+  color: #0b0223;
+  font-size: 48px;
+  font-weight: 700;
 }
 .buttonMain {
   border-radius: 48px;
@@ -143,82 +143,139 @@ a {
   margin-top: 18px;
 }
 /* Main section */
-.mainContainer{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    text-align: right;
-    margin: 50px;
-
-
+.mainContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: right;
+  margin: 50px;
 }
-.gamerDis{
-    color: #534C64;
-    font-size: 24px;
-    font-weight: 500;
+.gamerDis {
+  color: #534c64;
+  font-size: 24px;
+  font-weight: 500;
 }
-.onlineGame{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.onlineGame {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-.topGame{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0px auto;
-    gap: 30px;
-    margin-top: 48px;
+.topGame {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px auto;
+  gap: 30px;
+  margin-top: 48px;
 }
-.topGamePara{
-    font-size: 18px;
-    color: #3c354f;
-    font-weight: 600;
-    max-width: 300px;
-
+.topGamePara {
+  font-size: 18px;
+  color: #3c354f;
+  font-weight: 600;
+  max-width: 300px;
 }
 .blackTitle {
-    margin-bottom: 19px;
+  margin-bottom: 19px;
 }
-.playSection{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 100px;
-    gap: 200px;
+.playSection {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+  gap: 200px;
 }
-.plarRignt{
-    display: flex;
-    flex-direction: column;
+.plarRignt {
+  display: flex;
+  flex-direction: column;
 }
-.playFixt{
-    padding-left: 150px;
+.playFixt {
+  padding-left: 150px;
 }
-.floating{
-    height: 300px;
-    width: 300px;
-    position: relative;
-    bottom: 200px;
+.floating {
+  height: 300px;
+  width: 300px;
+  position: relative;
+  bottom: 200px;
 }
-.flotingContainer2{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 200px;
+.flotingContainer2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 200px;
 }
-.floting2{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
+.floting2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
 }
-.flotingImg2{
-    width: 300px;
-    height: 300px;
+.flotingImg2 {
+  width: 300px;
+  height: 300px;
 }
-.flotingImg1{
-    padding-right: 150px;
+.flotingImg1 {
+  padding-right: 150px;
 }
-.flotingImg2{
-    position: relative;
-    bottom: 200px;
+.flotingImg2 {
+  position: relative;
+  bottom: 200px;
+}
+.colorWhite {
+  color: white;
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+.whiteDis {
+  font-size: 18px;
+  color: #ffffff;
+  font-weight: 600;
+  max-width: 600px;
+}
+.pinkContainer {
+  background-color: rgb(250, 3, 188);
+}
+.pinkButton {
+  border-radius: 48px;
+  background: #fff;
+  display: inline-flex;
+  padding: 21px 40px;
+  align-items: flex-start;
+  gap: 10px;
+  font-size: 20px;
+  font-weight: 600;
+  color: rgb(250, 3, 188);
+}
+.pinkContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.pinkSection {
+  margin-left: 140px;
+  max-width: 900px;
+}
+.pinkMiddleLeft {
+  display: flex;
+  width: 900px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+.pinkMiddleRight {
+  text-align: right;
+}
+/* Footer secton */
+.footerContainer {
+  background-color: #0b0223;
+  margin-top: 100px;
+  padding-top: 100px;
+}
+.logoTitle {
+  display: flex;
+  font-size: 45px;
+  font-weight: 700;
+  justify-content: center;
+  color: white;
+}
+.titleG{
+    color: #ff42a5;
 }
