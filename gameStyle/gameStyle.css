@@ -3,10 +3,45 @@
   padding: 0px;
   margin: 0px;
 }
+* {
+  font-family: "Lato", sans-serif;
+  font-family: "Open Sans", sans-serif;
+  font-family: "The Nautigal", cursive;
+  font-family: "Work Sans", sans-serif;
+}
 .paragraph {
   font-size: 18px;
   color: #3c354f;
-  font-weight: 500;
+  font-weight: 600;
+  max-width: 600px;
+}
+.title {
+  font-size: 48px;
+}
+.colorTitle {
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 48px;
+  font-weight: 700;
+}
+.blackTitle{
+    color: #0B0223;
+    font-size: 48px;
+    font-weight: 700;
+}
+.buttonMain {
+  border-radius: 48px;
+  background: var(--linear, linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%));
+  display: inline-flex;
+  padding: 21px 40px;
+  align-items: flex-start;
+  gap: 10px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #fff;
+  border: 0px;
 }
 /* Nav design */
 .navContainer {
@@ -25,7 +60,7 @@
 .navLogo img {
   margin-right: 20px;
   width: 86.041px;
-  height: 40px; 
+  height: 30px;
 }
 .navLink {
   display: flex;
@@ -59,9 +94,89 @@ a {
   display: flex;
   align-items: center;
 }
-.navContainer h3 {
-  font-size: 45px;
-}
+
 .navContainer span {
   color: rgb(241, 10, 203);
+}
+/* head section  */
+.headButton {
+  background-color: #4ec5f7;
+  display: inline-flex;
+  padding: 21px 40px;
+  align-items: flex-start;
+  gap: 10px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #fff;
+  border: 0px;
+  border-radius: 48px;
+  margin-left: 24px;
+}
+.button {
+  margin-right: 24px;
+  justify-content: center;
+  margin-top: 18px;
+}
+.headContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+}
+.leftSide {
+  background-image: url(/images/Group\ 14.png);
+  padding: 240px;
+}
+.headContainer h1 {
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  ground-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 6rem;
+  font-weight: 800;
+}
+.leftSideimg {
+  width: 24px;
+  height: 24px;
+}
+.leftSide p {
+  margin-top: 18px;
+}
+/* Main section */
+.mainContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: right;
+    margin: 50px;
+
+
+}
+.gamerDis{
+    color: #534C64;
+    font-size: 24px;
+    font-weight: 500;
+}
+.onlineGame{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.topGame{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px auto;
+    gap: 30px;
+    margin-top: 48px;
+}
+.topGamePara{
+    font-size: 18px;
+    color: #3c354f;
+    font-weight: 600;
+    max-width: 300px;
+
+}
+.blackTitle {
+    margin-bottom: 19px;
 }
