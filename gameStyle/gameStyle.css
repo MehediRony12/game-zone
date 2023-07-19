@@ -180,3 +180,45 @@ a {
 .blackTitle {
     margin-bottom: 19px;
 }
+.playSection{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    gap: 200px;
+}
+.plarRignt{
+    display: flex;
+    flex-direction: column;
+}
+.playFixt{
+    padding-left: 150px;
+}
+.floating{
+    height: 300px;
+    width: 300px;
+    position: relative;
+    bottom: 200px;
+}
+.flotingContainer2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 200px;
+}
+.floting2{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.flotingImg2{
+    width: 300px;
+    height: 300px;
+}
+.flotingImg1{
+    padding-right: 150px;
+}
+.flotingImg2{
+    position: relative;
+    bottom: 200px;
+}
