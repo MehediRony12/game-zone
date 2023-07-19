@@ -268,7 +268,7 @@ a {
   background-color: #0b0223;
   margin-top: 100px;
   padding-top: 100px;
-  height: 800px;
+  height: 500px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -300,4 +300,13 @@ a {
   justify-content: center;
   gap: 60px;
   margin-top: 30px;
+}
+.privacy
+{
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  gap: 30px;
+  margin-bottom: 30px;
+  color: rgba(255, 255, 255, 0.60);
 }
